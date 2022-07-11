@@ -1,0 +1,6 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/profile_image"/>
+    <item android:drawable="@drawable/ic_profile_user"/>
+
+</layer-list>

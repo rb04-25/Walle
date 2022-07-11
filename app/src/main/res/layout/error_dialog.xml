@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:padding="http://schemas.android.com/tools"
+    android:layout_marginLeft="10dp"
+    tools:context=".HomeFragment"
+    android:layout_marginRight="10dp"
+    android:elevation="10dp"
+    app:cardElevation="1dp"
+    android:background="@color/item"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="@color/item"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/im_dialog"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/nerror">
+
+        </ImageView>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_close"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn"
+        app:tint="@color/black"
+        android:padding="20dp"
+        android:id="@+id/butn" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p_text"
+            android:layout_below="@+id/im_dialog"
+            android:textSize="25sp"
+            android:text="No Internet"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p_text1"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/p_text"
+            android:text="Check your Internet Connection.."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="30sp"></TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:id="@+id/ebtn"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/p_text1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Try Again"
+            android:textSize="20sp"
+            android:background="@drawable/dialog_error">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#f5e7e7</color>
+    <color name="purple_500">#f5e7e7</color>
+    <color name="purple_700">#f5e7e7</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="black1">#4D000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="coral">#FF7F50</color>
+    <color name="homecolor">#1194AA</color>
+    <color name="profilecolor">#AE7E0F</color>
+    <color name="bookmarkcolor">#5B37B7</color>
+    <color name="homecolor_20">#331194AA</color>
+    <color name="profilecolor_20">#33AE7E0F</color>
+    <color name="bookmarkcolor_20">#335B37B7</color>
+    <color name="bgcolor">#E8B5B2</color>
+    <color name="bgcolor1">#CCE8B5B2</color>
+    <color name="color1">#586F7C</color>
+    <color name="image_light">#80FF5566</color>
+    <color name="item">#F9FBF2</color>
+    <color name="setbtn">#FFEDE1</color>
+    <color name="setbtn_20">#80FFEDE1</color>
+    <color name="setbtn1">#B3FFEDE1</color>
+    <color name="green">#4AA02C</color>
+    <color name="green1">#98FF98</color>
+    <color name="green2">#85BB65</color>
+    <color name="btn">#4D808080</color>
+    <color name="graylight">#F5F5F5</color>
+
+    <color name="profilebg">#CC1C5665</color>
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+
+    <color name="startpink">#66FCBACB</color>
+    <color name="editpro">#DAD1CB</color>
+    <color name="editbtn">#CCFC6A03</color>
+
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+
+</resources>
